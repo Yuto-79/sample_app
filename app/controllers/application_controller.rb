@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: "Goodbye, world!"
   end
+
+  def different
+    render html: "hola, mundo!"
+  end
 end
